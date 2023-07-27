@@ -6,7 +6,7 @@ openai.api_key = api_key
 
 def get_sentiment(text):
 
-    prompt_text = """Classify the sentiment of the following tweet as positive, negative, or neutral towards Microsoft. 
+    prompt_text = """Classify the sentiment of the following tweet as positive, negative, or neutral towards 'company name'. 
     text: {}
     sentiment: """.format(text)
 
